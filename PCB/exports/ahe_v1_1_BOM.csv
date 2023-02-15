@@ -1,0 +1,25 @@
+Qty,Value,Device,Package,Parts,MOUSER_PRICE-STOCK,Description,ARROW_PART_NUMBER,ARROW_PRICE-STOCK,DESCRIPTION,HEIGHT,MANUFACTURER_NAME,MANUFACTURER_PART_NUMBER,MF,MOUSER_PART_NUMBER,,MOUSER_TESTING_PART_NUMBER,MOUSER_TESTING_PRICE-STOCK,MPN,OC_FARNELL,OC_NEWARK,POPULARITY,SPICEPREFIX
+2,,10-XX,B3F-10XX,"S1, S2",,OMRON SWITCH,,,,,,,,,,,,B3F-1000,176432,36M3542,72,
+4,,LEDCHIPLED_0805,CHIPLED_0805,"LED1, LED2, LED3, LED4",,LED,,,,,,,,,,,,,,,,
+2,,PINHD-1X2,1X02,"JP1, JP4",,PIN HEADER,,,,,,,,,,,,,,,98,
+1,,PINHD-1X4,1X04,JP5,,PIN HEADER,,,,,,,,,,,,,,,91,
+1,,PINHD-2X7,2X07,JP2,,PIN HEADER,,,,,,,,,,,,,,,8,
+2,100k,R-US_R0805,R0805,"R13, R15",,"RESISTOR, American symbol",,,,,,,,,,,,,,,85,R
+1,100n,C-USC0805,C0805,C1,,"CAPACITOR, American symbol",,,,,,,,,,,,,,,63,C
+5,10k,R-US_R0805,R0805,"R1, R6, R7, R8, R9",,"RESISTOR, American symbol",,,,,,,,,,,,,,,85,R
+1,10u,C-USC0805,C0805,C2,https://www.mouser.com/ProductDetail/KEMET/C0805C106K8RACTU?qs=iP0bYSAMAFqUyr6Ql6ZwXw%3D%3D,"CAPACITOR, American symbol",,,,,,,,,,,,,,,63,C
+2,1X4-3.5MM,1X4-3.5MM,1X04-3.5MM,"CN3, CN4",,4-pin connector,,,,,,,,,,,,,,,,
+2,1u,C-USC0805,C0805,"C4, C5",https://www.mouser.com/ProductDetail/KYOCERA-AVX/08055D105MAT2A?qs=OZ%252BC78tOsDZHSveO3HZ7XQ%3D%3D,"CAPACITOR, American symbol",,,,,,,,,,,,,,,63,C
+2,27k,R-US_R0805,R0805,"R14, R16",,"RESISTOR, American symbol",,,,,,,,,,,,,,,85,R
+1,2k,R-US_R0805,R0805,R3,,"RESISTOR, American symbol",,,,,,,,,,,,,,,85,R
+2,33,R-US_R0805,R0805,"R10, R11",,"RESISTOR, American symbol",,,,,,,,,,,,,,,85,R
+4,330,R-US_R0805,R0805,"R4, R5, R17, R18",,"RESISTOR, American symbol",,,,,,,,,,,,,,,85,R
+1,4.7u,C-USC0805,C0805,C3,https://www.mouser.com/ProductDetail/KYOCERA-AVX/08053D475MAT2A?qs=sGAEpiMZZMukHu%252BjC5l7YZuQtHN77KzLMEZO%252Bl6E7dg%3D,"CAPACITOR, American symbol",,,,,,,,,,,,,,,63,C
+1,40k,R-US_R0805,R0805,R2,https://www.mouser.com/ProductDetail/Vishay-Draloric/RCA080540K2FKEA?qs=ZSTLft15nNBGWXJNdNljew%3D%3D,"RESISTOR, American symbol",,,,,,,,,,,,,,,85,R
+1,BU33SD5WG-TR,BU33SD5WG-TR,SOT95P280X125-5N,PS1,https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BU33SD5WG-TR?qs=%2FKR40Cd6GUrQDzRkUEt69Q%3D%3D,"LDO regulator,3.3V,0.5A,standby,SSOP5 ROHM BU33SD5WG-TR, LDO Voltage Regulator, 0.5A, 3.3 V +/-2%, 1.7  6 Vin, 5-Pin SSOP",,,"LDO regulator,3.3V,0.5A,standby,SSOP5 ROHM BU33SD5WG-TR, LDO Voltage Regulator, 0.5A, 3.3 V +/-2%, 1.7  6 Vin, 5-Pin SSOP",1.25mm,ROHM Semiconductor,BU33SD5WG-TR,,755-BU33SD5WG-TR,,,,,,,,
+1,CMI-9605-0580T,CMI-9605-0580T,CMI96050580T,LS1,https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMI-9605-0580T?qs=P1JMDcb91o49u9Yh70m6sw%3D%3D,"Piezo Buzzers & Audio Indicators buzzer, 9.6 mm x 5 mm deep, M, 5 VDC, 80 dB, Through Hole, Audio Indicator",,,"Piezo Buzzers & Audio Indicators buzzer, 9.6 mm x 5 mm deep, M, 5 VDC, 80 dB, Through Hole, Audio Indicator",5mm,CUI Inc.,CMI-9605-0580T,,490-CMI-9605-0580T,,,,,,,,
+1,ESP32-S2-WROOM-I_M22S2H3200UH3,ESP32-S2-WROOM-I_M22S2H3200UH3,ESP32S2WROOMIM22S2H3200UH3Q0,IC3,https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S2-WROOM-IM22S2H3200UH3Q0?qs=vHuUswq2%252BswK%2FNdFP9puyg%3D%3D,WiFi Modules (802.11) Module ESP32-S2 WROOM IPEX ANT,,,WiFi Modules (802.11) Module ESP32-S2 WROOM IPEX ANT,3.45mm,Espressif Systems,ESP32-S2-WROOM-I(M22S2H3200UH3Q0),,356-ESP32S2WRMI320UH,,,,,,,,
+1,MCP73871-1CCI_ML,MCP73871-1CCI_ML,QFN50P400X400X100-21N,IC2,https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP73871-1CCI-ML?qs=wd5RIQLrsJhV5aSUuJa0zQ%3D%3D,Battery Management USB/AC Battery Charger w/Pwr Mgmt,,,Battery Management USB/AC Battery Charger w/Pwr Mgmt,1mm,Microchip,MCP73871-1CCI/ML,,579-MCP73871-1CCI/ML,,,,,,,,
+1,MS560702BA03-50,MS560702BA03-50,MS5607-02BA03,IC1,https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/MS560702BA03-50?qs=urSpXqmdEVImCZG1H%252BT8ng%3D%3D,"MS560702BA03-50, Barometric Pressure Sensor, 1200mbar 0  3.6 V Output, 8-Pin QFN",,,"MS560702BA03-50, Barometric Pressure Sensor, 1200mbar 0  3.6 V Output, 8-Pin QFN",mm,TE Connectivity,MS560702BA03-50,,824-MS560702BA03-50,,,,,,,,
+1,TSM200N03DPQ33_RGG,TSM200N03DPQ33_RGG,TSM200N03DPQ33RGG,Q1,https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/TSM200N03DPQ33-RGG?qs=BZBei1rCqCAHGBwVoEKNiA%3D%3D,"MOSFET MOSFET, Dual, N-Ch Trench, 30V, 20A",,,"MOSFET MOSFET, Dual, N-Ch Trench, 30V, 20A",0.8mm,Taiwan Semiconductor,TSM200N03DPQ33 RGG,,821-TSM200N03DPQ33RG,,,,,,,,
+1,USB3075-30-A,USB3075-30-A,USB307530A,J1,https://www.mouser.co.uk/ProductDetail/GCT/USB3075-30-A?qs=KUoIvG%2F9IlbGMJplbp1ybA%3D%3D,"GCT (GLOBAL CONNECTOR TECHNOLOGY) - USB3075-30-A - USB Connector, Micro USB Type B, USB 2.0, Receptacle, 5 Ways, Surface Mount, Right Angle",,,"GCT (GLOBAL CONNECTOR TECHNOLOGY) - USB3075-30-A - USB Connector, Micro USB Type B, USB 2.0, Receptacle, 5 Ways, Surface Mount, Right Angle",2.7mm,GCT (GLOBAL CONNECTOR TECHNOLOGY),USB3075-30-A,,640-USB3075-30-A,,,,,,,,

@@ -1,0 +1,16 @@
+## Todo list
+
+[x] LDO
+[x] BMS
+[x] Ematch circuit
+[x] outputs
+[x] inputs
+[x] Pressure sensor
+
+## Bugfixes 
+
+- Added SPI and IO1-4 to the ESP (fixed errors in v_1_0)
+
+## Known bugs
+
+
