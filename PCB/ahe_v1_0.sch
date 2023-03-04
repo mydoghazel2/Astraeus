@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11174,12 +11174,18 @@ Only power pins are in use for now</text>
 <wire x1="-52.07" y1="83.82" x2="-39.37" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-39.37" y1="83.82" x2="-39.37" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-39.37" y1="104.14" x2="-39.37" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="104.14" x2="-39.37" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="104.14" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-12.7" y="104.14"/>
 <junction x="-39.37" y="104.14"/>
 <pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="104.14" x2="-39.37" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="121.92" x2="-12.7" y2="111.76" width="0.1524" layer="91"/>
 <junction x="-12.7" y="111.76"/>
+<pinref part="IC2" gate="G$1" pin="EP"/>
+<wire x1="-62.23" y1="139.7" x2="-62.23" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-62.23" y1="152.4" x2="-27.94" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="152.4" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
+<junction x="-27.94" y="104.14"/>
 </segment>
 <segment>
 <wire x1="-170.18" y1="110.49" x2="-172.72" y2="110.49" width="0.1524" layer="91"/>
@@ -11375,19 +11381,6 @@ Only power pins are in use for now</text>
 </net>
 <net name="V_BAT" class="1">
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-170.18" y1="113.03" x2="-175.26" y2="113.03" width="0.1524" layer="91"/>
-<label x="-184.15" y="113.03" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-175.26" y1="113.03" x2="-180.34" y2="113.03" width="0.1524" layer="91"/>
-<wire x1="-180.34" y1="113.03" x2="-185.42" y2="113.03" width="0.1524" layer="91"/>
-<junction x="-180.34" y="113.03"/>
-<pinref part="PS1" gate="G$1" pin="VIN"/>
-<pinref part="PS1" gate="G$1" pin="STBY"/>
-<wire x1="-170.18" y1="107.95" x2="-175.26" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="107.95" x2="-175.26" y2="113.03" width="0.1524" layer="91"/>
-<junction x="-175.26" y="113.03"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="VBAT_2"/>
 <wire x1="-39.37" y1="116.84" x2="-34.29" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -11484,10 +11477,29 @@ Only power pins are in use for now</text>
 <pinref part="JP2" gate="A" pin="7"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VBAT_OUT" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT_1"/>
-<wire x1="-74.93" y1="116.84" x2="-72.39" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-74.93" y1="116.84" x2="-73.66" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="OUT_2"/>
+<wire x1="-73.66" y1="116.84" x2="-72.39" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-59.69" y1="139.7" x2="-76.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="139.7" x2="-76.2" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="116.84" x2="-74.93" y2="116.84" width="0.1524" layer="91"/>
+<label x="-76.2" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-170.18" y1="113.03" x2="-175.26" y2="113.03" width="0.1524" layer="91"/>
+<label x="-184.15" y="113.03" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-175.26" y1="113.03" x2="-180.34" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="113.03" x2="-185.42" y2="113.03" width="0.1524" layer="91"/>
+<junction x="-180.34" y="113.03"/>
+<pinref part="PS1" gate="G$1" pin="VIN"/>
+<pinref part="PS1" gate="G$1" pin="STBY"/>
+<wire x1="-170.18" y1="107.95" x2="-175.26" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="107.95" x2="-175.26" y2="113.03" width="0.1524" layer="91"/>
+<junction x="-175.26" y="113.03"/>
 </segment>
 </net>
 <net name="BMS_G" class="0">
