@@ -12853,7 +12853,7 @@ Source: 008-0260-0_E.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1778" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 <clearance class="0" value="0.1524"/>
 </class>
 <class number="1" name="PWR" width="0.254" drill="0">
