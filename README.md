@@ -7,11 +7,17 @@ Astreaus is a student led project to develop cheap, open-source, and modular avi
 Astraeus is the greek god of the wind and dusk to match not only the idea of our avionics being on a rocket but also our competition rocket being named "Dark and Dusty" after the song Country Roads 
 
 # Final Design 
-## Top Side
-<img src="./PCB/exports/v1_1_top.png" width="30%" />
+## v1.0
 
-## Bottom Side 
-<img src="./PCB/exports/v1_1_b.png" width="30%" />
+- This had some major design flaws and is still being updated. Say tuned for updates
+
+## aprs-gps v2.0
+
+<img src="./PCB/exports/aprs_v2.0.png" width="30%" />
+
+- External GPS support
+- i2c sensor capability for external data
+- DRA 818 V 2m Radio and APRS packet generation 
 
 
 # PCB
