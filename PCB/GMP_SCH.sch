@@ -10472,9 +10472,9 @@ W = angled&lt;p&gt;
 <label x="-7.62" y="157.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="17-A3/TX4/SDA1"/>
-<wire x1="-101.6" y1="109.22" x2="-106.68" y2="109.22" width="0.1524" layer="91"/>
-<label x="-106.68" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="30-CRX3"/>
+<wire x1="-101.6" y1="68.58" x2="-109.22" y2="68.58" width="0.1524" layer="91"/>
+<label x="-109.22" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
