@@ -9860,7 +9860,7 @@ W = angled&lt;p&gt;
 <label x="69.85" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="BARE" class="0">
 <segment>
 <wire x1="-86.36" y1="196.85" x2="-88.9" y2="196.85" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>

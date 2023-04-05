@@ -164,6 +164,14 @@
 <wire x1="-2.032" y1="65.278" x2="66.04" y2="65.278" width="0.3048" layer="20"/>
 <wire x1="66.04" y1="65.278" x2="66.04" y2="0" width="0.3048" layer="20"/>
 <wire x1="66.04" y1="0" x2="-2.032" y2="0" width="0.3048" layer="20"/>
+<text x="11.684" y="60.706" size="1.778" layer="42" rot="MR0" grouprefs="BOARD">Piatt Labs</text>
+<text x="62.992" y="60.706" size="1.778" layer="42" rot="MR0">V1.2</text>
+<text x="13.716" y="49.022" size="1.778" layer="42" rot="MR0">Not because 
+it is easy
+but because
+it is hard</text>
+<text x="64.262" y="6.858" size="1.778" layer="42" rot="MR315">Matthew
+10:28</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2251,10 +2259,10 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="8" x="-2.54" y="41.9354" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="39.37" y="10.8204" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04/90" package3d_urn="urn:adsk.eagle:package:22404/2" value="" x="4.3942" y="48.133" smashed="yes" rot="R50" grouprefs="BOARD">
-<attribute name="NAME" x="3.63929375" y="41.306025" size="1.27" layer="25" ratio="10" rot="R140"/>
-<attribute name="POPULARITY" value="9" x="36.09683125" y="46.399334375" size="1.778" layer="27" rot="R50" display="off"/>
-<attribute name="VALUE" x="12.2891375" y="50.62661875" size="1.27" layer="27" rot="R140"/>
+<element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04/90" package3d_urn="urn:adsk.eagle:package:22404/2" value="" x="10.4902" y="48.387" smashed="yes" rot="R50" grouprefs="BOARD">
+<attribute name="NAME" x="9.73529375" y="41.560025" size="1.27" layer="25" ratio="10" rot="R140"/>
+<attribute name="POPULARITY" value="9" x="42.19283125" y="46.653334375" size="1.778" layer="27" rot="R50" display="off"/>
+<attribute name="VALUE" x="18.3851375" y="50.88061875" size="1.27" layer="27" rot="R140"/>
 </element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="TLLG4400" x="53.6702" y="15.7226" smashed="yes" grouprefs="BOARD">
 <attribute name="MF" value="VISHAY SEMICONDUCTOR" x="77.8002" y="-49.0474" size="1.778" layer="27" display="off"/>
@@ -2355,7 +2363,7 @@ design rules under a new name.</description>
 <signal name="VCC">
 <contactref element="JP3" pad="4"/>
 </signal>
-<signal name="GND">
+<signal name="BARE">
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="PS1" pad="2"/>
@@ -2383,9 +2391,9 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="K"/>
 <contactref element="SV1" pad="7"/>
 <polygon width="0.1524" layer="16" spacing="0.3556">
-<vertex x="-1.3462" y="0.4318"/>
-<vertex x="-1.3462" y="65.0748"/>
-<vertex x="65.6844" y="65.0748"/>
+<vertex x="-0.8382" y="0.4318"/>
+<vertex x="-0.8382" y="64.8208"/>
+<vertex x="65.6844" y="64.8208"/>
 <vertex x="65.6844" y="0.4318"/>
 </polygon>
 <via x="36.83" y="30.226" extent="1-16" drill="0.65" shape="octagon"/>
@@ -2430,7 +2438,8 @@ design rules under a new name.</description>
 <via x="38.354" y="35.814" extent="1-16" drill="0.65" shape="octagon"/>
 <wire x1="36.83" y1="33.274" x2="36.83" y2="34.29" width="0.3048" layer="1"/>
 <wire x1="36.83" y1="34.29" x2="38.354" y2="35.814" width="0.3048" layer="1"/>
-<wire x1="38.1" y1="7.6454" x2="27.94" y2="5.1054" width="0" layer="19" extent="1-1"/>
+<wire x1="20.8026" y1="41.1734" x2="16.764" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="5.1054" x2="38.1" y2="7.6454" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BAT">
 <contactref element="C4" pad="1"/>
@@ -2609,18 +2618,17 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="3"/>
 <contactref element="U$1" pad="20-A6/TX5/LRCLK1"/>
 <wire x1="16.4592" y1="38.0492" x2="16.4592" y2="40.9448" width="0.3048" layer="16"/>
-<wire x1="16.4592" y1="40.9448" x2="13.208" y2="44.196" width="0.3048" layer="16"/>
-<wire x1="10.590021875" y1="44.196" x2="8.12916875" y2="46.656853125" width="0.3048" layer="16"/>
-<wire x1="13.208" y1="44.196" x2="10.590021875" y2="44.196" width="0.3048" layer="16"/>
+<wire x1="14.22516875" y1="46.910853125" x2="14.98716875" y2="46.148853125" width="0.3048" layer="16"/>
+<wire x1="14.98716875" y1="46.148853125" x2="14.98716875" y2="42.41683125" width="0.3048" layer="16"/>
+<wire x1="16.4592" y1="40.9448" x2="14.98716875" y2="42.41683125" width="0.3048" layer="16"/>
 </signal>
 <signal name="SERIAL_ESP_RX">
 <contactref element="JP3" pad="2"/>
 <contactref element="U$1" pad="21-A7/RX5/BCLK1"/>
-<wire x1="6.4964875" y1="44.7111" x2="6.5969" y2="44.7111" width="0.3048" layer="16"/>
-<wire x1="8.636" y1="42.672" x2="12.192" y2="42.672" width="0.3048" layer="16"/>
-<wire x1="12.192" y1="42.672" x2="13.9192" y2="40.9448" width="0.3048" layer="16"/>
+<wire x1="12.5924875" y1="44.9651" x2="13.3544875" y2="44.2031" width="0.3048" layer="16"/>
+<wire x1="13.3544875" y1="44.2031" x2="13.3544875" y2="41.5095125" width="0.3048" layer="16"/>
+<wire x1="13.3544875" y1="41.5095125" x2="13.9192" y2="40.9448" width="0.3048" layer="16"/>
 <wire x1="13.9192" y1="40.9448" x2="13.9192" y2="38.0492" width="0.3048" layer="16"/>
-<wire x1="6.5969" y1="44.7111" x2="8.636" y2="42.672" width="0.3048" layer="16"/>
 </signal>
 <signal name="SPI_CS">
 <contactref element="JP2" pad="2"/>
@@ -2928,6 +2936,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
